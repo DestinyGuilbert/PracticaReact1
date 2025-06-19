@@ -1,11 +1,12 @@
 import react from "react";
+import '../Style_sheets/Testimonio.css';
 
 function Testimonio() {
     return(
       <div className="contenedor-testimonio">
         <img
         className="imagen-testimonio"
-        src={require('../Imagenes/1.jpg')}
+        src={require('../Imagenes/2.jpg')}
         alt="1era Maravilla"/>
         <div className="contenedor-texto-testimonio">
           <p className="nombre-testimonio">Emma bostian en suecia </p>
